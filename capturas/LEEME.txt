@@ -1,0 +1,2 @@
+Coloca aqui tus capturas de pantalla (minimo 4) y referencialas en el README.md
+Ejemplo: captura1_main.png, captura2_mapa.png, captura3_correo.png, captura4_confirmar.png
