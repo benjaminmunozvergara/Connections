@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Prototipo 2 - Intents"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_marginTop="40dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5 implícitos + 3 explícitos"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:layout_marginBottom="24dp"/>
+
+
+        <!-- ========================================= -->
+        <!-- INTENTS IMPLÍCITOS -->
+        <!-- ========================================= -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🌐 Intents implícitos"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- 1. MAPA -->
+        <EditText
+            android:id="@+id/edtLugar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Lugar o dirección (ej: Plaza de Armas, Santiago)"
+            android:inputType="text"/>
+
+        <Button
+            android:id="@+id/btnMapa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🗺️ 1. ABRIR EN MAPA"/>
+
+        <!-- 2. WEB -->
+        <EditText
+            android:id="@+id/edtUrl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Página web (ej: santotomas.cl)"
+            android:inputType="textUri"
+            android:layout_marginTop="12dp"/>
+
+        <Button
+            android:id="@+id/btnWeb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🔗 2. ABRIR PÁGINA WEB"/>
+
+        <!-- 3. LLAMAR -->
+        <EditText
+            android:id="@+id/edtTelefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Teléfono (ej: +56912345678)"
+            android:inputType="phone"
+            android:layout_marginTop="12dp"/>
+
+        <Button
+            android:id="@+id/btnLlamar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📞 3. ABRIR MARCADOR"/>
+
+        <!-- 4. SMS -->
+        <EditText
+            android:id="@+id/edtTelefonoSms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Teléfono destinatario (ej: +56912345678)"
+            android:inputType="phone"
+            android:layout_marginTop="12dp"/>
+
+        <EditText
+            android:id="@+id/edtMensajeSms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mensaje"
+            android:inputType="textMultiLine"
+            android:minLines="2"/>
+
+        <Button
+            android:id="@+id/btnSms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="💬 4. ENVIAR SMS"/>
+
+        <!-- 5. AJUSTES WIFI -->
+        <Button
+            android:id="@+id/btnWifi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📶 5. AJUSTES WI-FI"
+            android:layout_marginTop="12dp"/>
+
+
+        <!-- ========================================= -->
+        <!-- INTENTS EXPLÍCITOS -->
+        <!-- ========================================= -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📱 Intents explícitos"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- 1. DETALLE (con extras) -->
+        <Button
+            android:id="@+id/btnDetalle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📄 1. IR A DETALLE (con datos)"/>
+
+        <!-- 2. AYUDA -->
+        <Button
+            android:id="@+id/btnAyuda"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="❓ 2. IR A AYUDA"
+            android:layout_marginTop="8dp"/>
+
+        <!-- 3. CONFIRMACIÓN (con resultado) -->
+        <EditText
+            android:id="@+id/edtNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tu nombre"
+            android:inputType="textPersonName"
+            android:layout_marginTop="12dp"/>
+
+        <Button
+            android:id="@+id/btnConfirmar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="✅ 3. IR A CONFIRMAR (con resultado)"/>
+
+        <TextView
+            android:id="@+id/txtResultado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Resultado: aún sin respuesta"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:padding="15dp"/>
+
+    </LinearLayout>
+
+</ScrollView>
