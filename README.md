@@ -1,4 +1,4 @@
-# 📱 Prototipo 2 - Intents Implícitos y Explícitos
+# 📱 Connections - Intents Implícitos y Explícitos
 
 Aplicación Android básica en **Java** que implementa **8 intents**: 5 implícitos y 3 explícitos, con validaciones en cada funcionalidad.
 

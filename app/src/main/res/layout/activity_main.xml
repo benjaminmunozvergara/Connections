@@ -14,7 +14,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Prototipo 2 - Intents"
+            android:text="Connections - Intents"
             android:textSize="26sp"
             android:textStyle="bold"
             android:textAlignment="center"
