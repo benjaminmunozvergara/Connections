@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="30dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="❓ Ayuda"
+        android:textSize="28sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. Escribe los datos en cada campo.\n2. Presiona el botón correspondiente.\n3. Android abrirá la app adecuada (mapa, navegador, teléfono, mensajes o ajustes).\n4. Si falta un dato, verás un aviso en rojo."
+        android:textSize="18sp"
+        android:layout_marginTop="24dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MainActivity → AyudaActivity"
+        android:textSize="14sp"
+        android:layout_marginTop="24dp"/>
+
+    <Button
+        android:id="@+id/btnVolver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VOLVER"
+        android:layout_marginTop="32dp"/>
+
+</LinearLayout>
