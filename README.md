@@ -72,11 +72,14 @@ MainActivity ──► DetalleActivity   (extras)
 
 ## 🖼️ Capturas
 
+<p align="center">
+  <img src="capturas/captura1_main.png" alt="Pantalla principal" width="220">
+  <img src="capturas/captura2_mapa.png" alt="Mapa" width="220">
+  <img src="capturas/captura3_sms.png" alt="SMS" width="220">
+  <img src="capturas/captura4_confirmar.png" alt="Confirmación" width="220">
+</p>
 
-| Pantalla principal | Mapa | SMS | Confirmación |
-|---|---|---|---|
-| ![](capturas/captura1_main.png) | ![](capturas/captura2_mapa.png) | ![](capturas/captura3_sms.png) | ![](capturas/captura4_confirmar.png) |
-
+1. Pantalla principal · 2. Mapa · 3. SMS · 4. Confirmación
 ---
 
 ## 🚀 Cómo ejecutar
